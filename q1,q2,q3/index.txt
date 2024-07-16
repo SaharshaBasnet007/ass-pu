@@ -1,0 +1,30 @@
+1. Required:-
+This attribute specifies that an input field must be filled out before submitting the form.
+Example: <input type="text" name="username" required>
+2. Multiple:-
+This attribute allows the user to select more than one value. It is commonly used with file input (type="file") or email input (type="email").
+Example: <input type="file" name="files" multiple>
+3. Disabled:-
+This attribute disables the input field, preventing the user from interacting with it. The value of a disabled input field will not be submitted with the form.
+Example: <input type="text" name="username" disabled>
+4. Readonly:-
+This attribute makes the input field read-only, meaning the user cannot modify the value, but the value will be submitted with the form.
+Example: <input type="text" name="username" value="JohnDoe" readonly>
+5. Maxlength:-
+This attribute specifies the maximum number of characters that the user can enter into an input field.
+Example: <input type="text" name="username" maxlength="10">
+6. Size:-
+This attribute specifies the width of the input field in characters. It only affects the visual size of the input field, not the amount of data that can be entered.
+Example: <input type="text" name="username" size="20">
+7. Autofocus:-
+ This attribute specifies that the input field should automatically get focus when the page loads.
+Example: <input type="text" name="username" autofocus>
+8. Pattern:-
+This attribute specifies a regular expression that the input field's value must match for the form to be submitted. It is used for client-side validation.
+Example: <input type="text" name="username" pattern="[A-Za-z]{3,}">
+In this example, the input must be at least 3 letters long and contain only letters.
+9. Min & Max:-
+These attributes specify the minimum and maximum values for an input field. They are commonly used with input types like number, date, time, and range.
+Example:
+For a number input: <input type="number" name="age" min="18" max="100">
+For a date input: <input type="date" name="birthdate" min="1900-01-01" max="2023-12-31">
